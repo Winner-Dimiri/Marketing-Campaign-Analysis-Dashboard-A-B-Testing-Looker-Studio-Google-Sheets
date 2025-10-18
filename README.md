@@ -1,0 +1,2 @@
+# Marketing-Campaign-Analysis-Dashboard-A-B-Testing-Looker-Studio-Google-Sheets
+This project applies A/B testing principles to evaluate the effectiveness of three marketing promotions (Promo 1, Promo 2, and Promo 3) for a fast-food chain launching a new product. Using Looker Studio and Google Sheets, the project evaluates which promotion drives the highest per-location sales and provides actionable business recommendations.
