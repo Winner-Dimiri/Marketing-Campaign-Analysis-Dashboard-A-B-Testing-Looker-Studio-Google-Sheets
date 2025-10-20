@@ -19,7 +19,7 @@ Google Sheets, Excel
 |SalesInThousands | Sales amount                                       |
 
 - **Dataset Size:** 543 rows * 7 columns
-- **Data Source:**  Kaggle - Fast Food Marketing Campaign A/B Test by Anastasia Chebotina
+- **Data Source:**  Kaggle - Fast Food Marketing Campaign A/B Test by Anastasia Chebotina.
   You can view and download the dataset [here](https://github.com/Winner-Dimiri/Marketing-Campaign-Analysis-Dashboard-A-B-Testing-Looker-Studio-Google-Sheets/blob/main/Marketing%20Campaign%20Data%20-%20Campaign_Data.csv)
 
 
