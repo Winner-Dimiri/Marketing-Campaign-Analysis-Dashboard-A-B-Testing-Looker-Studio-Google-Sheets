@@ -20,21 +20,76 @@ Google Sheets, Excel
 
 - **Dataset Size:** 543 rows * 7 columns
 - **Data Source:**  Kaggle - Fast Food Marketing Campaign A/B Test by Anastasia Chebotina
+  You can view and download the dataset [here](https://github.com/Winner-Dimiri/Marketing-Campaign-Analysis-Dashboard-A-B-Testing-Looker-Studio-Google-Sheets/blob/main/Marketing%20Campaign%20Data%20-%20Campaign_Data.csv)
+
 
 ## Data Cleaning and Preparation
 - Verified numeric types in SalesInThousands
-- **Derived Column:** I added a revenue column, converting the SalesInThousands entires, which were in decimals to thousands.
+- **Derived Column:** I added a revenue column, converting the SalesInThousands column to thousand.
 
 ## Descriptive Analysis
-- **Total Revenue:** Calculated the total overall revenue -
+- **Total Revenue:** Calculated the total overall revenue
+
+![](https://github.com/Winner-Dimiri/Marketing-Campaign-Analysis-Dashboard-A-B-Testing-Looker-Studio-Google-Sheets/blob/main/Total%20Total%20Revenue%20Function.png)
+
+![](https://github.com/Winner-Dimiri/Marketing-Campaign-Analysis-Dashboard-A-B-Testing-Looker-Studio-Google-Sheets/blob/main/Total%20Total%20Revenue%20Output.png)
+
 - **Total Revenue for each Promotion:** shows total revenue for each promotion, to identify which campaign generated the most total revenue.
-- **Mean Weekly Sales per Promotion:** gives the average revenue per week for each promotion, to know which campaign performs best on average.
-- **Median Weekly Sales per Promotion:** gives the median revenue per week for each promotion, to control for outliers.
+
+![](https://github.com/Winner-Dimiri/Marketing-Campaign-Analysis-Dashboard-A-B-Testing-Looker-Studio-Google-Sheets/blob/main/Total%20Revenue%20Function.png)
+
+![](https://github.com/Winner-Dimiri/Marketing-Campaign-Analysis-Dashboard-A-B-Testing-Looker-Studio-Google-Sheets/blob/main/Total%20Revenue%20Output.png)
+
+
+- **Mean Weekly Revenue per Promotion:** gives the average revenue per week for each promotion, to know which campaign performs best on average.
+
+![](https://github.com/Winner-Dimiri/Marketing-Campaign-Analysis-Dashboard-A-B-Testing-Looker-Studio-Google-Sheets/blob/main/Average%20Revenue%20Weekly%20Function.png)
+
+![](https://github.com/Winner-Dimiri/Marketing-Campaign-Analysis-Dashboard-A-B-Testing-Looker-Studio-Google-Sheets/blob/main/Average%20Revenue%20Weekly%20Output.png)
+
+- **Median Revenue and Median Weekly Revenue per Promotion:** gives the median revenue per week for each promotion, to control for outliers.
+
+![](https://github.com/Winner-Dimiri/Marketing-Campaign-Analysis-Dashboard-A-B-Testing-Looker-Studio-Google-Sheets/blob/main/Median%20Revenue%20Function.png)
+
+![](https://github.com/Winner-Dimiri/Marketing-Campaign-Analysis-Dashboard-A-B-Testing-Looker-Studio-Google-Sheets/blob/main/Median%20Revenue%20Output.png)
+
+![](https://github.com/Winner-Dimiri/Marketing-Campaign-Analysis-Dashboard-A-B-Testing-Looker-Studio-Google-Sheets/blob/main/Median%20Weekly%20Revenue%20Function.png)
+
+![](https://github.com/Winner-Dimiri/Marketing-Campaign-Analysis-Dashboard-A-B-Testing-Looker-Studio-Google-Sheets/blob/main/Median%20Revenue%20Weekly%20Output.png)
+
 - **% Lift Vs Baseline Promotion:** using Promo 1 as the baseline, to show how much better one promotion performs compared to another.
-- **Week-over-Week Change (%):** to track how performance changes over time
+
+![](https://github.com/Winner-Dimiri/Marketing-Campaign-Analysis-Dashboard-A-B-Testing-Looker-Studio-Google-Sheets/blob/main/Lift%20Vs%20Baseline%20Promo%20Function.png)
+
+![](https://github.com/Winner-Dimiri/Marketing-Campaign-Analysis-Dashboard-A-B-Testing-Looker-Studio-Google-Sheets/blob/main/Lift%20Vs%20Baseline%20Promo%20Output.png)
+
+- **Week-over-Week Change (%):** to track how performance changes over time.
+
+![](https://github.com/Winner-Dimiri/Marketing-Campaign-Analysis-Dashboard-A-B-Testing-Looker-Studio-Google-Sheets/blob/main/Week%20Over%20Week%20Function.png)
+
+![](https://github.com/Winner-Dimiri/Marketing-Campaign-Analysis-Dashboard-A-B-Testing-Looker-Studio-Google-Sheets/blob/main/Week%20Over%20Week%20Output.png)
+
 - **Promo Win Rate (Weeks Won):** to tell how consistent a promo’s success is.
+
+![](https://github.com/Winner-Dimiri/Marketing-Campaign-Analysis-Dashboard-A-B-Testing-Looker-Studio-Google-Sheets/blob/main/Promo%20Win%20Rate%20Function%201.png)
+
+![](https://github.com/Winner-Dimiri/Marketing-Campaign-Analysis-Dashboard-A-B-Testing-Looker-Studio-Google-Sheets/blob/main/Promo%20Win%20Output%201.png)
+
+![](https://github.com/Winner-Dimiri/Marketing-Campaign-Analysis-Dashboard-A-B-Testing-Looker-Studio-Google-Sheets/blob/main/Promo%20Win%20Rate%20Function%202.png)
+
+![](https://github.com/Winner-Dimiri/Marketing-Campaign-Analysis-Dashboard-A-B-Testing-Looker-Studio-Google-Sheets/blob/main/Promo%20Win%20Rate%20Output.png)
+
 - **Market Size Performance:** to show which market segment (Large, Medium, Small) is most profitable under each promotion.
+
+![](https://github.com/Winner-Dimiri/Marketing-Campaign-Analysis-Dashboard-A-B-Testing-Looker-Studio-Google-Sheets/blob/main/Market%20Size%20Performance%20Function.png)
+
+![](https://github.com/Winner-Dimiri/Marketing-Campaign-Analysis-Dashboard-A-B-Testing-Looker-Studio-Google-Sheets/blob/main/Market%20Size%20Performance%20Output.png)
+
 - **Locations Above Target:** to measure how many store locations achieved strong sales under each promotion.
+
+![](https://github.com/Winner-Dimiri/Marketing-Campaign-Analysis-Dashboard-A-B-Testing-Looker-Studio-Google-Sheets/blob/main/Locations%20Above%20Target%20Function.png)
+
+![](https://github.com/Winner-Dimiri/Marketing-Campaign-Analysis-Dashboard-A-B-Testing-Looker-Studio-Google-Sheets/blob/main/Locations%20Above%20Target%20Output.png)
 
 ## Dashboard Overview
 
