@@ -1,7 +1,7 @@
 # Marketing Campaign Analysis Dashboard - Fast-Food Product Launch
 ---
 ## Project Overview
-- **Project Description:** This project applies A/B testing principles to evaluate the effectiveness of three marketing promotions (Promo 1, Promo 2, and Promo 3) for a fast-food chain launching a new product. Using Looker Studio and Google Sheets, the project evaluates which promotion drives the highest per-location sales and provides actionable business recommendations.
+- **Project Description:** This project applies A/B testing principles to evaluate the effectiveness of three marketing promotions (Promo 1, Promo 2, and Promo 3) for a fast-food chain launching a new product. Using Looker Studio and Google Sheets, I evaluated which promotion is more effective and provided actionable business recommendations.
 - **Project Goal:** Evaluate promotional campaign performance and identify which promotion should be scaled, redesigned, or discontinued.
 
 ## Tools Used
@@ -28,22 +28,27 @@ Google Sheets, Excel
 - **Derived Column:** I added a revenue column, converting the SalesInThousands column to thousand.
 
 ## Descriptive Analysis
-- **Total Revenue:** Calculated the total overall revenue
+- **Total Revenue:** the total overall revenue
 
-![](https://github.com/Winner-Dimiri/Marketing-Campaign-Analysis-Dashboard-A-B-Testing-Looker-Studio-Google-Sheets/blob/main/Total%20Total%20Revenue%20Function.png)
+![](https://github.com/Winner-Dimiri/Marketing-Campaign-Analysis-Dashboard-A-B-Testing-Looker-Studio-Google-Sheets/blob/main/images/Total%20Total%20Revenue%20Function.png)
 
-![](https://github.com/Winner-Dimiri/Marketing-Campaign-Analysis-Dashboard-A-B-Testing-Looker-Studio-Google-Sheets/blob/main/Total%20Total%20Revenue%20Output.png)
+![](https://github.com/Winner-Dimiri/Marketing-Campaign-Analysis-Dashboard-A-B-Testing-Looker-Studio-Google-Sheets/blob/main/images/Total%20Total%20Revenue%20Output.png)
 ---
+- **Average Revenue:** the overall average revenue
+![](https://github.com/Winner-Dimiri/Marketing-Campaign-Analysis-Dashboard-A-B-Testing-Looker-Studio-Google-Sheets/blob/main/images/Average%20Revenue%20Overall%20Function.png)
+
+![](https://github.com/Winner-Dimiri/Marketing-Campaign-Analysis-Dashboard-A-B-Testing-Looker-Studio-Google-Sheets/blob/main/images/Average%20Revenue%20Overall%20Output.png)
+
 - **Total Revenue for each Promotion:** shows total revenue for each promotion, to identify which campaign generated the most total revenue.
 
-![](https://github.com/Winner-Dimiri/Marketing-Campaign-Analysis-Dashboard-A-B-Testing-Looker-Studio-Google-Sheets/blob/main/Total%20Revenue%20Function.png)
+![](https://github.com/Winner-Dimiri/Marketing-Campaign-Analysis-Dashboard-A-B-Testing-Looker-Studio-Google-Sheets/blob/main/images/Total%20Revenue%20Function.png)
 
-![](https://github.com/Winner-Dimiri/Marketing-Campaign-Analysis-Dashboard-A-B-Testing-Looker-Studio-Google-Sheets/blob/main/Total%20Revenue%20Output.png)
+![](https://github.com/Winner-Dimiri/Marketing-Campaign-Analysis-Dashboard-A-B-Testing-Looker-Studio-Google-Sheets/blob/main/images/Total%20Revenue%20Output.png)
 
 
 - **Mean Weekly Revenue per Promotion:** gives the average revenue per week for each promotion, to know which campaign performs best on average.
 
-![](https://github.com/Winner-Dimiri/Marketing-Campaign-Analysis-Dashboard-A-B-Testing-Looker-Studio-Google-Sheets/blob/main/Average%20Revenue%20Weekly%20Function.png)
+![](https://github.com/Winner-Dimiri/Marketing-Campaign-Analysis-Dashboard-A-B-Testing-Looker-Studio-Google-Sheets/blob/main/images/Average%20Revenue%20Weekly%20Function.png)
 
 ![](https://github.com/Winner-Dimiri/Marketing-Campaign-Analysis-Dashboard-A-B-Testing-Looker-Studio-Google-Sheets/blob/main/Average%20Revenue%20Weekly%20Output.png)
 
@@ -104,8 +109,8 @@ Live Dashboard: [View on Looker Studio](https://lookerstudio.google.com/reportin
 
 ## Recommendations
 - Scale Promo 1 across all markets for consistent per-store performance.
-- Pilot Promo 3 only in large markets for possible scalability.
+- Implement Promo 3 mainly in large markets for possible scalability.
 - Discontinue or redesign Promo 2 to minimize inefficiency.
-- Collect promotion cost data to measure Return on Investment (ROI) and Return on Ad Spend (ROAS), before final scaling decisions as total revenue alone does not equal profit..
+- Collect promotion cost data to measure Return on Investment (ROI) and Return on Ad Spend (ROAS), before final scaling decisions as total revenue alone does not equal profit.
 
 
