@@ -33,7 +33,7 @@ Google Sheets, Excel
 ![](https://github.com/Winner-Dimiri/Marketing-Campaign-Analysis-Dashboard-A-B-Testing-Looker-Studio-Google-Sheets/blob/main/Total%20Total%20Revenue%20Function.png)
 
 ![](https://github.com/Winner-Dimiri/Marketing-Campaign-Analysis-Dashboard-A-B-Testing-Looker-Studio-Google-Sheets/blob/main/Total%20Total%20Revenue%20Output.png)
-
+---
 - **Total Revenue for each Promotion:** shows total revenue for each promotion, to identify which campaign generated the most total revenue.
 
 ![](https://github.com/Winner-Dimiri/Marketing-Campaign-Analysis-Dashboard-A-B-Testing-Looker-Studio-Google-Sheets/blob/main/Total%20Revenue%20Function.png)
@@ -96,16 +96,16 @@ Google Sheets, Excel
 Live Dashboard: [View on Looker Studio](https://lookerstudio.google.com/reporting/1a947eb6-5ad5-410f-b8a4-0849ecc3bd95/page/uT5bF/edit)
 
 ## Insights Summary 
-- Promo 1 is most efficient per store (best average/median sales, 100+ high-performing stores)
-- Promo 3 is strongest in large markets and highest total revenue.
-- Promo 2 is weakest; should be paused or redesigned.
-- Week-over-week trends stable (small variances <5%)
-- Market segmentation shows differing promo effectiveness
+- Promo 1 is the safest choice to scale. It delivers the highest average and median sales per location, the highest count of locations above target, and the most consistent week-to-week performance. This makes Promo 1 the most reliable way to increase per-store revenue.
+- Promo 3 drives the most total revenue, but it’s less efficient per location. It had more locations and so generated higher total revenue.
+- Promo 2 underperforms on all key measures and should be paused or redesigned. It has the lowest averages, medians, and the fewest locations above target despite having the same number of locations as Promo 3.
+- Promotions performed differently across market sizes. Large markets favored Promo 3 more, while medium and small markets responded better to Promo 1. This suggests future campaigns should be tailored to each market size.
+- Week-over-week sales remained steady (small variances <5%), showing that customer response to the promotions was stable and reliable.
 
 ## Recommendations
 - Scale Promo 1 across all markets for consistent per-store performance.
 - Pilot Promo 3 only in large markets for possible scalability.
 - Discontinue or redesign Promo 2 to minimize inefficiency.
-- Collect promotion cost data to measure Return on Investment (ROI) and Return on Ad Spend (ROAS).
-- Extend experiment to 8 weeks for trend confirmation.
+- Collect promotion cost data to measure Return on Investment (ROI) and Return on Ad Spend (ROAS), before final scaling decisions as total revenue alone does not equal profit..
+
 
